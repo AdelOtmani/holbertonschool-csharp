@@ -1,4 +1,4 @@
-mkdir 1-build_new_project
-cd 1-build_new_project
+mkdir 1-new_project
+cd 1-new_project
 dotnet new console
 dotnet build
