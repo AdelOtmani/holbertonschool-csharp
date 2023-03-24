@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         for (char letter = 'a'; letter != '{'; letter++){
-            Console.WriteLine(letter);
+            Console.WriteLine("{0}\n",letter);
         } 
     }
 }
