@@ -6,7 +6,7 @@ class Program
     {
         for (int digit = 0; digit <= 99; digit++){
             if (digit == 99){
-                Console.Write("{0:00}",digit);
+                Console.WriteLine("{0:00}",digit);
             }
             else{
                 Console.Write("{0:00}, ",digit);
