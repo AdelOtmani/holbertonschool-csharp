@@ -13,7 +13,7 @@ class LList
                 myLList.Remove(CurrN);
                 break;
             } 
-            CurrN = CurrN.Next ;
+            CurrN = CurrN.Next;
         }
     }
 }
