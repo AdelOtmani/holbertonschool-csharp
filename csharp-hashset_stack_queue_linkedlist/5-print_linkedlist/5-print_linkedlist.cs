@@ -9,7 +9,7 @@ class LList
         LinkedList<int> list2 = new LinkedList<int>();
         if (size < 0)
         {
-            return(empty);
+            return(list2);
         }
         for (int i = 0; i < size; i++)
         {
