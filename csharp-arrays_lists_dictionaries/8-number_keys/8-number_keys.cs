@@ -6,7 +6,7 @@ class Dictionary
     public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
         int numbkey = 0;
-        foreach (Dictionary<string, string> pair in myDict)
+        foreach (KeyValuePair<string, string> pair in myDict)
         {
             numbkey++;
         }
