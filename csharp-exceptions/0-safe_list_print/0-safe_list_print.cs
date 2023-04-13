@@ -5,17 +5,17 @@ class List
 {
     public static int SafePrint(List<int> myList, int n)
     {
-        int intPrinted = 0;
+        int iprinted = 0;
         try
         {
-            for (; intPrinted < n; intPrinted++)
+            for (; iprinted < n; iprinted++)
             {
-                Console.WriteLine(myList[intPrinted]);
+                Console.WriteLine(myList[iprinted]);
             }
         }
         catch (System.Exception)
         {
         }
-        return intPrinted;
+        return iprinted;
     }
 }
