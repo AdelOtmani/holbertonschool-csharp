@@ -8,13 +8,15 @@ class List
         int iprinted = 0;
         try
         {
-            for (; iprinted < n; iprinted++)
+            for (int i = 0; i < n; i++)
             {
-                Console.WriteLine(myList[iprinted]);
+                Console.WriteLine(myList[i]);
+                iprinted ++;
             }
         }
-        catch (System.Exception)
+        catch (System.ArgumentOutOfRangeException)
         {
+            return(iprinted);
         }
         return iprinted;
     }
