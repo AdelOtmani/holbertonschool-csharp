@@ -7,8 +7,8 @@ class VectorMath
     ///<summary> method that calculates and returns the length of a given vector.</summary>
     public static double Magnitude(double[] vector)
     {
-        c = vector.Count();
-        res = 0;
+        int c = vector.Count();
+        int res = 0;
 
         if (c == 2)
         {
@@ -20,7 +20,7 @@ class VectorMath
         }
         else
         {
-            return (-1);
+            return(-1);
         }
         return(res);
     }
