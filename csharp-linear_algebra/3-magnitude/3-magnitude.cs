@@ -12,12 +12,12 @@ class VectorMath
 
         if (c == 2)
         {
-            res = sqrt((vector[0]**2) + (vector[1]**2));
+            res = Math.sqrt((vector[0]**2) + (vector[1]**2));
             return(res);
         }
         else if (c == 3)
         {
-            res = sqrt((vector[0]**2) + (vector[1]**2) + (vector[2]**2));
+            res = Math.sqrt((vector[0]**2) + (vector[1]**2) + (vector[2]**2));
             return(res);
         }
         else
