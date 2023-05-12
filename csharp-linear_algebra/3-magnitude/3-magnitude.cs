@@ -8,16 +8,16 @@ class VectorMath
     public static double Magnitude(double[] vector)
     {
         int c = vector.Length;
-        int res = 0;
+        long res = 0;
 
         if (c == 2)
         {
-            res = Math.Round(Math.Sqrt(Math.Pow(vector[0], 2) + Math.Pow(vector[1], 2)));
+            res = Math.Round(Math.Sqrt(Math.Pow(vector[0], 2) + Math.Pow(vector[1], 2)), 2);
             return(res);
         }
         else if (c == 3)
         {
-            res = Math.Round(Math.Sqrt(Math.Pow(vector[0], 2) + Math.Pow(vector[1], 2) + Math.Pow(vector[2], 2)));
+            res = Math.Round(Math.Sqrt(Math.Pow(vector[0], 2) + Math.Pow(vector[1], 2) + Math.Pow(vector[2], 2)), 2);
             return(res);
         }
         else
