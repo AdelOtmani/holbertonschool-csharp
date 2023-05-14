@@ -17,7 +17,7 @@ class MatrixMath
 
             return (res);
         }
-        if ((matrix1.GetLength(0) == 3 && matrix1.GetLength(1) == 3 && matrix1.GetLength(2) == 3) && (matrix2.GetLength(0) == 3 && matrix2.GetLength(1) == 3 && matrix2.GetLength(2) == 3))
+        if ((matrix1.GetLength(0) == 3 && matrix1.GetLength(1) == 3) && (matrix2.GetLength(0) == 3 && matrix2.GetLength(1) == 3))
         {
             double[,] res = {{ 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }};
             res[0, 0] = matrix1[0, 0] + matrix2[0, 0];
