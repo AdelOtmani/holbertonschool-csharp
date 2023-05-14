@@ -9,7 +9,7 @@ class MatrixMath
     {
         if ((matrix1.GetLength(0) == 2 && matrix1.GetLength(1) == 2) && (matrix2.GetLength(0) == 2 && matrix2.GetLength(1) == 2))
         {
-            double[] res = {{ 0, 0 }, { 0, 0 }};
+            double[,] res = {{ 0, 0 }, { 0, 0 }};
             res[0, 0] = matrix1[0, 0] + matrix2[0, 0];
 			res[0, 1] = matrix1[0, 1] + matrix2[0, 1];
 			res[1, 0] = matrix1[1, 0] + matrix2[1, 0];
@@ -19,7 +19,7 @@ class MatrixMath
         }
         if ((matrix1.GetLength(0) == 3 && matrix1.GetLength(1) == 3 && matrix1.GetLength(2) == 3) && (matrix2.GetLength(0) == 3 && matrix2.GetLength(1) == 3 && matrix2.GetLength(2) == 3))
         {
-            double[] res = {{ 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }};
+            double[,] res = {{ 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }};
             res[0, 0] = matrix1[0, 0] + matrix2[0, 0];
 			res[0, 1] = matrix1[0, 1] + matrix2[0, 1];
 			res[0, 2] = matrix1[0, 2] + matrix2[0, 2];
