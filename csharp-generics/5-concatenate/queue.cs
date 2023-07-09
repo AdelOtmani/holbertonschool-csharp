@@ -113,7 +113,7 @@ public class Queue<T>
             else
             {
 				Node currentNodeToConcat = head;
-				string containerStringForConcat = "";
+				string containerStringForConcat = " ";
 				while (currentNodeToConcat != null)
 				{
 					containerStringForConcat += currentNodeToConcat.value;
@@ -124,7 +124,7 @@ public class Queue<T>
         }
         else
         {
-			Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
+			Console.WriteLine("Concatenate is for a queue of Strings or Chars only.");
 			return null;
         }
     }
