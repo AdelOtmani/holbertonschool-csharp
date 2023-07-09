@@ -113,7 +113,7 @@ public class Queue<T>
             else
             {
 				Node currentNodeToConcat = head;
-				string containerStringForConcat = " ";
+				string containerStringForConcat = "";
 				while (currentNodeToConcat != null)
 				{
 					containerStringForConcat += currentNodeToConcat.value;
