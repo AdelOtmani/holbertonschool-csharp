@@ -5,3 +5,4 @@
 3) csharp-arrays_lists_dictionaries
 4) csharp-exceptions
 5) csharp-structs_enums
+6) csharp-classes
