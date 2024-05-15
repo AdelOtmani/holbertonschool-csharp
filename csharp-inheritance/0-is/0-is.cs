@@ -7,11 +7,11 @@ class Obj
     {
         if (obj is int)
         {
-            return (true);
+            return (True);
         }
         else
         {
-            return (false);
+            return (False);
         }
     }
 }
