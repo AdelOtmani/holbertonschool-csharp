@@ -6,3 +6,5 @@
 4) csharp-exceptions
 5) csharp-structs_enums
 6) csharp-classes
+7) csharp-tdd
+8) csharp-inheritance
