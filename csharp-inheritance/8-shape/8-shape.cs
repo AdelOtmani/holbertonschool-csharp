@@ -25,7 +25,7 @@ class Rectangle
 			}
 			else
 			{
-				width = value
+				width = value;
 			}
 		}
     }
@@ -43,7 +43,7 @@ class Rectangle
 			}
 			else
 			{
-				height = value
+				height = value;
 			}
 		}
 	}

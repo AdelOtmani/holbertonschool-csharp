@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-class animal
+class Animal
 {
     // Empty class
 }

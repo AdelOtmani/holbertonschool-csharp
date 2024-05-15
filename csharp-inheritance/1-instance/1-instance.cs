@@ -6,12 +6,8 @@ class Obj
     public static bool IsInstanceOfArray(object obj)
     {
         if (typeof(Array).IsInstanceOfType(obj))
-        {
             return (true);
-        }
         else
-        {
             return (false);
-        }
     }
 }
