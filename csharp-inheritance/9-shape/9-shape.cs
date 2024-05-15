@@ -7,7 +7,7 @@ class Shape
          throw new NotImplementedException("Area() is not implemented");
     }
 }
-class Rectangle
+class Rectangle : Shape
 {
     private int width;
     private int height;
