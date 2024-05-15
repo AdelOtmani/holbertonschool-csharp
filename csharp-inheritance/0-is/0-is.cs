@@ -1,17 +1,13 @@
 using System;
-using System.Collection.Generic;
+using System.Collections.Generic;
 
 class Obj
 {
     public static bool IsOfTypeInt(object obj)
     {
         if (obj is int)
-        {
-            return (True);
-        }
+            return (true);
         else
-        {
-            return (False);
-        }
+            return (false);
     }
 }
