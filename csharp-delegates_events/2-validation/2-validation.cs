@@ -49,7 +49,8 @@ public class Player
     ///<summary>
     ///CalculateHealth: delegate
     ///</summary>
-    public delegate void CalculateHealth(float damage);
+    ///<param name="amount">float</param>
+    public delegate void CalculateHealth(float amount);
 
     ///<summary>
     ///ValidateHP: method for CalculateHealth
