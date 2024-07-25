@@ -66,7 +66,7 @@ public class Player
         {
             newHp = maxHp;
         }
-        hp = maxHp;
+        hp = newHp;
     }
 
     ///<summary>
